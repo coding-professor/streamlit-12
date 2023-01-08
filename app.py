@@ -30,7 +30,7 @@ This app retrieves cryptocurrency prices for the top 100 cryptocurrency from the
 """)
 #---------------------------------#
 # About
-expander_bar = st.beta_expander("About")
+expander_bar = st.expander("About")
 expander_bar.markdown("""
 * **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn, BeautifulSoup, requests, json, time
 * **Data source:** [CoinMarketCap](http://coinmarketcap.com).
