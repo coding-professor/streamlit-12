@@ -63,6 +63,6 @@ def load_data():
     listings = coin_data['props']['initialState']
     
  
-    st.write(json.loads(listings))
+    st.write(json.loads(listings["cryptocurrency"]))
     
 load_data()
