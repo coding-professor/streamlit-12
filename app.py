@@ -64,6 +64,6 @@ def load_data():
     listings2 = listings['cryptocurrency']['listingLatest']['data']
    
     
-    st.write(listings2)
+    st.write(listings2[0])
     
 load_data()
