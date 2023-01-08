@@ -64,6 +64,8 @@ def load_data():
     for i in listings:
       coins[str(i['id'])] = i['slug']
 
+    st.write(listings)
+    
     coin_name = []
     coin_symbol = []
     market_cap = []
